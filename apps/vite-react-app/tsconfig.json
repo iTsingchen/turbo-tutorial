@@ -1,0 +1,4 @@
+{
+  "extends": "@kym-config/tsconfig/vitejs.json",
+  "include": ["src"]
+}

@@ -1,0 +1,11 @@
+{
+  "extends": ["next/core-web-vitals", "./base.eslintrc"],
+  "settings": {
+    "next": {
+      "rootDir": ["apps/*/", "packages/*/"]
+    }
+  },
+  "rules": {
+    "no-html-link-for-pages": "off"
+  }
+}
