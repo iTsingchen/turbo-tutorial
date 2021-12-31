@@ -5,7 +5,8 @@
   "license": "MIT",
   "files": [
     "nextjs.eslintrc",
-    "vitejs.eslintrc"
+    "vitejs.eslintrc",
+    "craco.eslintrc"
   ],
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.8.1",

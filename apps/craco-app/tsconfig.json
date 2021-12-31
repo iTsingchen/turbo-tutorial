@@ -1,0 +1,4 @@
+{
+  "extends": "@kym-config/tsconfig/craco.json",
+  "include": ["src"]
+}

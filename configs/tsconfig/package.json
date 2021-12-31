@@ -2,9 +2,11 @@
   "name": "@kym-config/tsconfig",
   "version": "0.0.0",
   "private": true,
+  "license": "MIT",
   "files": [
     "nextjs.json",
     "vitejs.json",
+    "craco.json",
     "react-library.json"
   ]
 }
