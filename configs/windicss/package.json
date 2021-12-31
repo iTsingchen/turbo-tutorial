@@ -1,0 +1,12 @@
+{
+  "name": "@kym-config/windicss",
+  "version": "0.0.0",
+  "private": true,
+  "main": "index.ts",
+  "files": [
+    "index.ts"
+  ],
+  "dependencies": {
+    "windicss": "^3.4.2"
+  }
+}
