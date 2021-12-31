@@ -1,5 +1,5 @@
 {
   "extends": "@kym-config/tsconfig/nextjs.json",
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules", "windi.config.ts"]
+  "include": ["next-env.d.ts", "pages"],
+  "exclude": ["node_modules"]
 }
