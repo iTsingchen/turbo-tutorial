@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import { Button } from "ui";
+import { Button } from "@kym/widgets";
 
 import logo from "./logo.svg";
 import "./App.css";
