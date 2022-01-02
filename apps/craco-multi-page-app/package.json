@@ -1,5 +1,5 @@
 {
-  "name": "craco-app",
+  "name": "craco-multi-page-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
