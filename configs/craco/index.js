@@ -40,7 +40,7 @@ function supportMultiPage(webpackConfig, { env }) {
 
   // 2. Generating multiple HTML entry points
   // https://github.com/jantimon/html-webpack-plugin#generating-multiple-html-files
-  const { userOptions: defaultUserOptions, constructor: HtmlWebpackPlugin } =
+  const { userOptions: homeHtmlOptions, constructor: HtmlWebpackPlugin } =
     getPluginByName("HtmlWebpackPlugin");
 
   const htmlWebpackPlugins = routeEntries
@@ -49,14 +49,14 @@ function supportMultiPage(webpackConfig, { env }) {
     .map(
       (name) =>
         new HtmlWebpackPlugin({
-          ...defaultUserOptions,
+          ...homeHtmlOptions,
           chunks: [name],
           filename: `${name}/index.html`,
         })
     );
 
   addPlugins(webpackConfig, htmlWebpackPlugins);
-  defaultUserOptions.chunks = ["home"]; // for index.html
+  homeHtmlOptions.chunks = ["home"]; // for index.html
 
   // 3. Update WebpackManifest to support multi entry points
   const { options: manifestPluginOptions } = getPluginByName(
