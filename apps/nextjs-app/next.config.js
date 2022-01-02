@@ -5,6 +5,7 @@ module.exports = withTM({
   reactStrictMode: true,
 
   webpack(config) {
+    // https://windicss.org/integrations/webpack.html#next-js
     config.plugins.push(new WindiCSSWebpackPlugin());
     return config;
   },

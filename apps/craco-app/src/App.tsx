@@ -24,6 +24,7 @@ function App() {
         >
           Learn React
         </a>
+        <p>Git Version: {process.env.GIT_VERSION}</p>
       </header>
     </div>
   );
