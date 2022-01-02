@@ -88,7 +88,7 @@ function supportMultiPage(webpackConfig, { env }) {
   };
 }
 
-function replaceBabelToSwr(webpackConfig, { env }) {
+function replaceBabelToSwc(webpackConfig, { env }) {
   const isDevelopment = env === "development";
 
   // https://github.com/pmmmwh/react-refresh-webpack-plugin/blob/69a837e58bc5195377cd3521600c440dedf59b72/README.md?plain=1#L255-L299
@@ -147,7 +147,7 @@ module.exports = {
       ],
     },
     configure: (webpackConfig, options) => {
-      replaceBabelToSwr(webpackConfig, options);
+      replaceBabelToSwc(webpackConfig, options);
 
       // If webpackConfig.entry is json, support for multi-page mode will be enhanced.
       if (webpackConfig.entry.endsWith(".json")) {
