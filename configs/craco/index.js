@@ -86,12 +86,6 @@ function supportMultiPage(webpackConfig, { env }) {
       entrypoints: entrypointFiles,
     };
   };
-
-  // 4. The record entry is used to set the dev server.
-  // supportMultiPage.historyRewrites = routeEntries.map(([name]) => ({
-  //   from: new RegExp(`^\\/${name}($|\\/)`, "i"),
-  //   to: `/${name}.html`,
-  // }));
 }
 
 function replaceBabelToSwr(webpackConfig, { env }) {
@@ -162,19 +156,5 @@ module.exports = {
 
       return webpackConfig;
     },
-  },
-
-  devServer: (devServerConfig) => {
-    /**
-     * You can visit the page by visiting localhost:3000/about,
-     * otherwise you must visit the full path localhost: 3000/about.html.
-     * https://webpack.js.org/configuration/dev-server/#devserverhistoryapifallback
-     */
-    // devServerConfig.historyApiFallback = {
-    //   disableDotRule: true,
-    //   rewrites: supportMultiPage.historyRewrites,
-    // };
-
-    return devServerConfig;
   },
 };
