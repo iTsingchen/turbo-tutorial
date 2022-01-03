@@ -12,7 +12,6 @@
     "@swc/core": "^1.2.124",
     "swc-loader": "^0.1.15",
     "@craco/craco": "^6.4.3",
-    "react-scripts": "5.0.0",
     "windicss-webpack-plugin": "^1.6.2"
   }
 }
