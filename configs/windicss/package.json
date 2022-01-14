@@ -1,5 +1,5 @@
 {
-  "name": "@kym-config/windicss",
+  "name": "@turbo-tutorial/windicss",
   "version": "0.0.0",
   "private": true,
   "main": "index.ts",

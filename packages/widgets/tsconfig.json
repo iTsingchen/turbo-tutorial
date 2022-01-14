@@ -1,5 +1,5 @@
 {
-  "extends": "@kym-config/tsconfig/react-library.json",
+  "extends": "@turbo-tutorial/tsconfig/react-library.json",
   "include": ["."],
   "exclude": ["dist", "build", "node_modules"]
 }

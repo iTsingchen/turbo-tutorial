@@ -7,6 +7,7 @@
     "plugin:react/recommended",
     "airbnb",
     "airbnb-typescript",
+    "plugin:@typescript-eslint/recommended-requiring-type-checking",
     "plugin:prettier/recommended"
   ],
   "parser": "@typescript-eslint/parser",
@@ -17,6 +18,6 @@
     "ecmaVersion": 13,
     "sourceType": "module"
   },
-  "plugins": ["react", "@typescript-eslint", "prettier"],
+  "plugins": [],
   "rules": {}
 }

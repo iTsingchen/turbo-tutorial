@@ -1,4 +1,4 @@
-import { defineConfig } from "@kym-config/windicss";
+import { defineConfig } from "@turbo-tutorial/windicss";
 
 export default defineConfig({
   include: ["**/*.{vue,html,jsx,tsx}"],

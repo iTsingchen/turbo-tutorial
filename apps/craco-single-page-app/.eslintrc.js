@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    require.resolve("@kym-config/eslint/craco.eslintrc"), // Must use require.resolve
+    require.resolve("@turbo-tutorial/eslint/craco.eslintrc"), // Must use require.resolve
   ],
   parserOptions: {
     root: true,

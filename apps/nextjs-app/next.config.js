@@ -1,5 +1,5 @@
 const WindiCSSWebpackPlugin = require("windicss-webpack-plugin");
-const withTM = require("next-transpile-modules")(["@kym/widgets"]);
+const withTM = require("next-transpile-modules")(["@turbo-tutorial/widgets"]);
 
 module.exports = withTM({
   reactStrictMode: true,

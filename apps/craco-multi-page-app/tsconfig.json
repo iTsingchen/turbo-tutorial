@@ -1,5 +1,5 @@
 {
-  "extends": "@kym-config/tsconfig/craco.json",
+  "extends": "@turbo-tutorial/tsconfig/craco.json",
   "include": ["src"],
   "exclude": ["node_modules"]
 }

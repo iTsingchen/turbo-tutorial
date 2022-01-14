@@ -1,5 +1,5 @@
 module.exports = {
-  extends: require.resolve("@kym-config/eslint/vitejs.eslintrc"), // Must use require.resolve
+  extends: require.resolve("@turbo-tutorial/eslint/vitejs.eslintrc"), // Must use require.resolve
   parserOptions: {
     root: true,
     project: "./tsconfig.json",

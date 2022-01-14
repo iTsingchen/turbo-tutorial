@@ -1,1 +1,1 @@
-module.exports = require("@kym-config/craco");
+module.exports = require("@turbo-tutorial/craco");

@@ -12,12 +12,12 @@
     "next": "12.0.3",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "@kym/widgets": "*"
+    "@turbo-tutorial/widgets": "*"
   },
   "devDependencies": {
-    "@kym-config/tsconfig": "*",
-    "@kym-config/eslint": "*",
-    "@kym-config/windicss": "*",
+    "@turbo-tutorial/tsconfig": "*",
+    "@turbo-tutorial/eslint": "*",
+    "@turbo-tutorial/windicss": "*",
     "@types/react": "17.0.37",
     "eslint": "7.32.0",
     "next-transpile-modules": "9.0.0",

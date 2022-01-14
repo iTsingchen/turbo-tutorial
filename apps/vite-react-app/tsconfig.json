@@ -1,5 +1,5 @@
 {
-  "extends": "@kym-config/tsconfig/vitejs.json",
+  "extends": "@turbo-tutorial/tsconfig/vitejs.json",
   "include": ["src"],
   "exclude": ["node_modules"]
 }
